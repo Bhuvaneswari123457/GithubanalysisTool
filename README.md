@@ -21,7 +21,7 @@ A full-stack web application to analyze GitHub repositories, built with Angular 
 
 
 
-This project is a full-stack GitHub Insights Tool developed using Angular for the frontend and Spring Boot for the backend. The frontend allows users to input any public GitHub repository URL and view key repository data and contributor information. The backend exposes REST APIs that internally fetch data from the GitHub API using RestTemplate and serve it to the Angular frontend. The application is structured into two main folders: frontend (Angular app) and backend (Spring Boot app). The Angular frontend runs on port 4200 (ng serve) and the backend on port 8080 (./gradlew bootRun), with CORS configured to allow communication between them. The project can also be containerized using Docker and run together using Docker Compose for seamless deployment.
+This project is a full-stack GitHub Insights Tool developed using Angular for the frontend and Spring Boot for the backend. The frontend allows users to input any public GitHub repository URL and view key repository data and contributor information. The backend exposes REST APIs that internally fetch data from the GitHub API using RestTemplate and serve it to the Angular frontend. The application is structured into two main folders: frontend (Angular app) and backend (Spring Boot app). The Angular frontend runs on port 4200 (ng serve) and the backend on port 8080 (./gradlew bootRun), with CORS configured to allow communication between them. 
 
 
 steps
