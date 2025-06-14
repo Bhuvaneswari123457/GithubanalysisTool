@@ -48,3 +48,11 @@ This starts the Angular app on http://localhost:4200
     Click the analyse button to see repository info and contributor stats.
 
 
+https://github.com/user-attachments/assets/17529015-6dcf-4374-80b7-124c54a8dfc1
+
+https://github.com/user-attachments/assets/8977682d-5193-4a67-a290-bb03f6e7662a
+
+
+
+
+
