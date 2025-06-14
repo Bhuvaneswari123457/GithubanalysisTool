@@ -52,7 +52,7 @@ This starts the Angular app on http://localhost:4200
     Click the analyse button to see repository info and contributor stars.
 
 
-
+![image](https://github.com/user-attachments/assets/df1ea126-746a-4bbe-9443-fcfc0ac27025)
 
 
 
