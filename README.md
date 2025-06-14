@@ -1,4 +1,8 @@
 
+
+https://github.com/user-attachments/assets/d3e941ed-dcf6-413f-8119-2b1f814d7e36
+
+
 # GitHub Insights Analyzer
 
 A full-stack web application to analyze GitHub repositories, built with Angular (frontend) and Spring Boot (backend). It fetches and displays repository statistics, contributors, and other insights from GitHub.
