@@ -21,7 +21,8 @@ This project is a full-stack GitHub Insights Tool developed using Angular for th
 
 
 steps
-git clone [https://github.com/Bhuvaneswari123457/GithubanalysisTool]
+git clone [https://github.com/Bhuvaneswari123457/GithubanalysisTool].
+
 
 
 cd githubrepo-analyser
