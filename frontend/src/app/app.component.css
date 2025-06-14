@@ -1,0 +1,67 @@
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 32px;
+  background-color: #31400859;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+mat-label {
+  font-weight: 500;
+}
+
+button {
+  width: 100%;
+  padding: 12px 0;
+  font-weight: 600;
+  background-color: #1976d2;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1fac66;
+
+}
+
+mat-card {
+  margin-top: 30px;
+  padding: 24px;
+  background-color: #f5f7fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+mat-card-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #263238;
+}
+
+mat-card-content p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #455a64;
+}
+
+.error-message {
+  color: #d32f2f;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}

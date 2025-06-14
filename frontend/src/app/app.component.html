@@ -1,0 +1,35 @@
+<<div style="text-align:center">
+  <h1>{{ title }}</h1>
+</div>
+
+<mat-form-field appearance="fill" style="width: 100%;">
+  <mat-label>GitHub Repository URL</mat-label>
+  <input matInput [(ngModel)]="repoUrl" placeholder="e.g., https://github.com/angular/angular">
+</mat-form-field>
+
+<button mat-raised-button color="primary" (click)="fetchRepoInfo()">Analyze</button>
+
+<div *ngIf="loading" style="margin-top: 20px;">
+  <mat-spinner></mat-spinner>
+</div>
+
+<div *ngIf="error" style="color: red; margin-top: 10px;">
+  {{ error }}
+</div>
+
+<mat-card *ngIf="repoData">
+  <mat-card-title>{{ repoData.full_name }}</mat-card-title>
+  <mat-card-subtitle>{{ repoData.description }}</mat-card-subtitle>
+  <p><strong>Stars:</strong> {{ repoData.stargazers_count }}</p>
+  <p><strong>Forks:</strong> {{ repoData.forks_count }}</p>
+</mat-card>
+
+<div *ngIf="contributors.length > 0">
+  <h3>Top Contributors</h3>
+  <div *ngFor="let contributor of contributors" style="margin-bottom: 10px;">
+    <mat-card>
+      <mat-card-title>{{ contributor.login }}</mat-card-title>
+      <p><strong>Contributions:</strong> {{ contributor.contributions }}</p>
+    </mat-card>
+  </div>
+</div>
