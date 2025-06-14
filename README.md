@@ -49,16 +49,11 @@ This starts the Angular app on http://localhost:4200
 
     Enter a GitHub repository URL (e.g., https://github.com/angular/angular)
 
-    Click the analyse button to see repository info and cont
-
-https://github.com/user-attachments/assets/e10cdb94-b678-4870-a3c5-394aa6f5e658
-
-ributor stats.
+    Click the analyse button to see repository info and contributor stars.
 
 
 
 
-https://github.com/user-attachments/assets/cab8ae0f-686f-4dd1-b421-edb3257edc17
 
 
 
