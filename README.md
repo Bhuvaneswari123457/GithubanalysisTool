@@ -1,4 +1,4 @@
-# GithubanalysisTool..
+
 # GitHub Insights Analyzer
 
 A full-stack web application to analyze GitHub repositories, built with Angular (frontend) and Spring Boot (backend). It fetches and displays repository statistics, contributors, and other insights from GitHub.
